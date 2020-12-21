@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /** Strict Type-Checking Options **/
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "suppressImplicitAnyIndexErrors": true,
+
+    /** Additional Checks **/
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+
+    /** Source Map Options **/
+    "baseUrl": "./",
+    // "paths": {
+    //   "*": [
+    //     "node_modules/@types/*",
+    //     "./src/@types/*"
+    //   ]
+    // },
+  }
+}
